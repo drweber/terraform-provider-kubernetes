@@ -1,5 +1,21 @@
 # Terraform Provider
 
+This provider is a **fork** of the official Kubernetes provider developed by HashiCorp.
+This fork supports the following resources in addition to the official provider:
+
+- Ingress `kubernetes_ingress` [taken_from_sl1pm4t_github](https://github.com/sl1pm4t/terraform-provider-kubernetes/)
+
+## Supported Kubernetes Versions
+
+The latest build of this provider uses v6.0 of the kubernetes [client-go](https://github.com/kubernetes/client-go) library, and has been tested with the following Kubernetes versions:
+
+- 1.7.x
+- 1.8.x
+- 1.9.x
+- 1.10.x
+- 1.11.x
+
+## Terraform 
 - Website: https://www.terraform.io
 - [![Gitter chat](https://badges.gitter.im/hashicorp-terraform/Lobby.png)](https://gitter.im/hashicorp-terraform/Lobby)
 - Mailing list: [Google Groups](http://groups.google.com/group/terraform-tool)

@@ -1,4 +1,4 @@
-module github.com/terraform-providers/terraform-provider-kubernetes
+module github.com/drweber/terraform-provider-kubernetes
 
 require (
 	cloud.google.com/go v0.34.0 // indirect
